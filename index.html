@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="item1"></div>
+        <div class="flex-item" id="item2"></div>
+        <div class="flex-item" id="item3"></div>
+    </div>
+    <script>
+        const flexContainer = document.querySelector('.flex-container');
+        flexContainer.style.backgroundColor = 'gray';
+        flexContainer.style.border = '2px solid black';
+
+        const item1 = document.querySelector('#item1');
+        const item2 = document.querySelector('#item2');
+        const item3 = document.querySelector('#item3');
+
+        item1.style.backgroundColor = 'red';
+        item1.style.border = '2px solid black';
+        item2.style.backgroundColor = 'purple';
+        item2.style.border = '2px solid black';
+        item3.style.backgroundColor = 'pink';
+        item3.style.border = '2px solid black';
+    </script>
+</body>
+</html>
